@@ -52,6 +52,6 @@ cnpm install html-webpack-plugin --save-dev
 在main.js文件里面按如下图片配置
 重新启动项目，打开浏览器就会发现打包后的index.js会自动引入到index.html文件里面
 ```
-![](./images/1.png)
+![](./images/2.png)
 
 
