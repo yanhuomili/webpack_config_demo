@@ -46,12 +46,11 @@ publicPath: '/base/' ----- <script type="text/javascript" src="base/index.js"></
 ```
 
 ## 7. 如何让打包后的js文件自动引入到index.html文件
-
+![本地图片](/images/2.png)
 ```
 cnpm install html-webpack-plugin --save-dev
-在main.js文件里面按如下图片配置
+在main.js文件里面按图片进行配置
 重新启动项目，打开浏览器就会发现打包后的index.js会自动引入到index.html文件里面
 ```
-![](./images/2.png)
 
 
