@@ -2,8 +2,12 @@
 
 ## 1. 搭建项目，命令行终端进入到该项目并执行npm init 来初始化项目的package.json文件
 
-## 2. 在目录中安装webpack: cnpm install webpack --save-dev ,安装完webpack后安装热更新模块：npm install webpack --save-dev
+## 2. 在目录中安装webpack相关依赖
 
-> 如果webpack的版本过低，在安装热更新模块的时候可能会有警告提示
+> 1) cnpm install webpack --save-dev : 本项目的webpack依赖 
+  2) cnpm install webpack-cli --save-dev : webpack4.0以后的版本都需要安转这个依赖 
+  3) npm install webpack --save-dev : 安装热更新模块 
+
+## 3.
 
 

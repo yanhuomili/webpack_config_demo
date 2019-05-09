@@ -1,23 +1,25 @@
 {
   "name": "webpack_config_demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "> 如果webpack的版本过低，在安装热更新模块的时候可能会有警告提示",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --port 9898 --open"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yanhuomili"
+    "url": "git+https://github.com/yanhuomili/webpack_config_demo.git"
   },
-  "keywords": [
-    "webpack",
-    "config"
-  ],
-  "author": "lihaohua",
+  "author": "yanhuomili",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanhuomili/webpack_config_demo/issues"
+  },
+  "homepage": "https://github.com/yanhuomili/webpack_config_demo#readme",
   "devDependencies": {
     "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.3.1"
   }
 }
