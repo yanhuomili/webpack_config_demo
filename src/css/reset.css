@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #f1f1f1;
+	color: #f60;
+}
+ul{
+	background: pink;
+	color: #fff;
+	font-size: 20px;
+}
+li{
+	list-style: none;
+	padding: 20px;
+}
+.img1{
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	background: url('../img/h2.jpg');
+	background-size: 100% 100%;
+}
+.img2{
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	background: url('../img/h3.jpg');
+	background-size: 100% 100%;
+}

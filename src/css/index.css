@@ -1,0 +1,11 @@
+body {
+  background: lightskyblue;
+  color: darkorange; }
+  body .test {
+    color: red;
+    background: #fff; }
+    body .test p {
+      margin: 15px;
+      padding: 20px; }
+
+/*# sourceMappingURL=index.css.map */
